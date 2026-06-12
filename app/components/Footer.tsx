@@ -98,7 +98,7 @@ export default function Footer() {
                 href="tel:+919000000000"
                 className="hover:text-[#D4AF37]"
               >
-                +91 90000 00000
+                +91 7889543708
               </a>
             </div>
           </div>
