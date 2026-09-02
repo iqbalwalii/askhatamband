@@ -1,17 +1,16 @@
 export default function ContactPage() {
   return (
-    <section className="min-h-screen bg-[#020617] py-24 px-6 text-[#F8FAFC]">
+    <section className="min-h-screen bg-[#020617] my-10 py-24 px-6 text-[#F8FAFC]">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-[#D4AF37] mb-6">
           Contact Us
         </h1>
-
+ 
         <form
           action="https://api.web3forms.com/submit"
           method="POST"
           className="space-y-4"
         >
-          {/* Web3Forms Access Key */}
           <input
             type="hidden"
             name="access_key"
@@ -23,7 +22,7 @@ export default function ContactPage() {
             name="name"
             placeholder="Name"
             required
-            className="w-full p-4 bg-[#0F172A] rounded"
+            className="w-full p-4 bg-[#0F172A] text-[#F8FAFC] placeholder:text-[#94A3B8] rounded outline-none"
           />
 
           <input
@@ -31,7 +30,7 @@ export default function ContactPage() {
             name="email"
             placeholder="Email"
             required
-            className="w-full p-4 bg-[#0F172A] rounded"
+            className="w-full p-4 bg-[#0F172A] text-[#F8FAFC] placeholder:text-[#94A3B8] rounded outline-none"
           />
 
           <textarea
@@ -39,7 +38,7 @@ export default function ContactPage() {
             placeholder="Message"
             rows={4}
             required
-            className="w-full p-4 bg-[#0F172A] rounded"
+            className="w-full p-4 bg-[#0F172A] text-[#F8FAFC] placeholder:text-[#94A3B8] rounded outline-none"
           />
 
           <button
