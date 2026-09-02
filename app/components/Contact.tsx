@@ -13,8 +13,14 @@ export default function ContactSection() {
           and heritage restoration projects.
         </p>
 
-        <form className="space-y-4">
-
+        <form  action="https://api.web3forms.com/submit"
+          method="POST"
+          className="space-y-4">
+<input
+            type="hidden"
+            name="access_key"
+            value="3ec6f59d-014e-4b96-a5f4-c6dca03f3b9c"
+          />
           <input
             type="text"
             placeholder="Name"
@@ -33,7 +39,7 @@ export default function ContactSection() {
             className="w-full p-4 rounded bg-[#0F172A]"
           />
 
-          <button className="w-full py-3 bg-[#D4AF37] text-black font-semibold rounded">
+          <button type="submit" className="w-full py-3 bg-[#D4AF37] text-black font-semibold rounded">
             Send Message
           </button>
 
